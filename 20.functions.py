@@ -130,8 +130,8 @@ def sum_odd_numbers(*numbers):
 items=[1,2,3,4,5,6,7]
 
 print(sum_odd_numbers(items))
-# Error
-# ([1, 2, 3, 4, 5, 6, 7],)
+# Error because numbers( ([1, 2, 3, 4, 5, 6, 7],) ) in ( for item in numbers:) is not a list.
+# ([1, 2, 3, 4, 5, 6, 7],) 
 
 print(sum_odd_numbers(1,2,3,4,5,6,7)) 
 # 16
