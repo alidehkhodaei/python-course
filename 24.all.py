@@ -1,4 +1,5 @@
-# all: Checked True or False every item
+# all: Checked True or False every item.
+# if a item was false, all return false.
 
 print(all([1,2,3,4,5])) # True
 
