@@ -4,7 +4,7 @@
 
 # Enter python / Enter help('modules') (Show modules list)
 
-import termcolor2 # For install (python3 -m pip install termcolor2 --user)
+import termcolor2 # For install (python -m pip install termcolor2 --user)
 
 print(termcolor2.colored("Ali Ahmadi",color="green"))
 
