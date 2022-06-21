@@ -47,7 +47,7 @@ and iterate through it using a common animal variable. It is possible due to pol
 
 # Polymorphism and Inheritance-----------------------
 
-class IUserService:
+class IUserService: # Like interface in java / Python don't have interface.
     def get_all_users(self): raise NotImplementedError  # Or raise NotImplementedError()
 
     def get_user_by_id(self): raise NotImplementedError
