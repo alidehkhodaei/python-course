@@ -7,6 +7,8 @@
 # iterate
 # به هر پیمایش، iterate گفته میشود.
 
+#----------------------------
+
 items = [1, 2, 3, 4, 5] # iterable
 
 iter_items = iter(items) # iterator
@@ -18,3 +20,17 @@ print(next(iter_items))
 print(next(iter_items))
 print(next(iter_items))
 print(next(iter_items))
+
+#----------------------------
+
+for item in items:
+  print(item)
+
+  '''
+  for در حلقه
+ iterable وقتی یک  
+ iterator بهش میدیم خودش تیدیل به
+iter() میکنه با استفاده از
+ را روش فراخونی میکنه next و
+'''
+
