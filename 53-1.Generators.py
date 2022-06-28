@@ -1,5 +1,7 @@
 # Generator is an iterator
 
+# Generators:  1)Generator function    2)Generator expression
+
 def count(max):
     count = 1
     while count < max:
