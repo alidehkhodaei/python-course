@@ -1,4 +1,4 @@
-# Geneator is an iterator
+# Generator is an iterator
 
 def count(max):
     count = 1
