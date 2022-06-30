@@ -10,8 +10,13 @@ def hi():
     print("Hello")
 
 
+#hi_by_decorator = my_decorator(lambda:hi())
+# Or
 hi_by_decorator = my_decorator(hi)
 hi_by_decorator()
+
+
+
 
 '''
 Hello
