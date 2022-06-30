@@ -14,7 +14,7 @@ input.place(x=0,y=20)
 def get_name():
     print(input.get())
 
-btn=Button(root,text="Get name",command=lambda :get_name())
+btn=Button(root,text="Get name",command=lambda :get_name()) # Or command=get_name
 btn.place(x=0,y=50)
 
 root.mainloop()
