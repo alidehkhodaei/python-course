@@ -14,7 +14,7 @@ CREATE TABLE IF NOT EXISTS user(
 """
 
 cursor.execute(sql)
-connection.commit()
+connection.commit() # Save (commit) the changes
 connection.close()
 
 #Example 2------------------
@@ -63,7 +63,7 @@ for user in cursor:
 (3, 'Reza', 'Movahed', 'test3@gmail.com')
 '''
 
-connection.commit()
+#connection.commit() We don't have this for select query if I do not modify the database (i.e. only do a SELECT query
 connection.close()
 
 #Example 5------------------
