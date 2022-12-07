@@ -4,26 +4,6 @@ class Test:
 
 print(Test())
 
-
-# ---------------
-
-class Car:
-    name = None
-    color = None
-
-    def show(self):
-        return self.name + " " + self.color
-
-
-benz = Car()
-benz.name = "Benz 2020"
-benz.color = "Red"
-
-print(benz.name)
-print(benz.color)
-print(benz.show())
-
-
 # ---------------
 
 class User:
